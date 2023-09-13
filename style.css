@@ -1,0 +1,220 @@
+* {
+    background-color: rgb(220, 243, 249);
+    color: white;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    border: 2px solid black;
+    height:100px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262a59;
+}
+
+.content {
+    height: 1000px;
+    border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    height:max-content;
+    background-color: #262a59;
+}
+
+
+
+
+
+
+#img {
+    align-items: center;
+    height: 100px;
+}
+
+
+#panel {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0%;
+}
+
+.panel {
+   
+    background-color: black;
+    text-decoration: none;
+}
+
+#homepanel{
+    width: 200px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+
+
+#faqpanel {
+    width: 160px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+
+#contactuspanel {
+    width: 250px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+ 
+#ugpanel {
+    width: 250px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+
+#servicespanel {
+    width: 200px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+
+#naopanel {
+    width: 300px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes text-blink {
+    0%, 100% { color: initial; }
+    50% { color:yellow; }
+}
+
+#text {
+    text-align: center;
+    animation: text-blink 1s infinite;
+    background-color: #262a59;
+}
+
+#important {
+    border: 5px solid brown;
+    margin-top: 400px;
+}
+
+
+
+
+
+
+
+
+#login {
+    font-family: 'Times New Roman', Times, serif ;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 700px;
+    background-color: rgb(113, 113, 189);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.buttons {
+    background-color: white;
+    display: inline-block;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#input1 {
+    background-color: rgb(113, 113, 189);
+    margin-top: 50px;
+    margin-left: 4%;
+    color: black;
+}
+
+#input2{
+    background-color: rgb(113, 113, 189);
+    margin-top: 10px;
+    text-decoration: black;
+}
+
+#form {
+    background-color: rgb(113, 113, 189);
+    margin-top: 5%;
+    margin-left:17%;
+}
+
+#signuppanel{
+    margin-top: 100px;
+    background-color:rgb(113, 113, 189);
+}
+
+#signup {
+    display: inline;
+    margin-left: 10px;
+
+    background-color: rgb(113, 113, 189);
+}
+
+#notamember {
+    display: inline;
+    margin-top: 40px;
+    background-color: rgb(113, 113, 189);
+}
+
+
+
+
+
+
+
+
+
+
+#aboutus {
+    height: 400px;
+    width: 300px;
+    background-color: #c3200a;
+    margin-left: 20px;
+    
+    text-align: center;
+    padding: 25px;
+}
